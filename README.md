@@ -16,6 +16,7 @@
 <ul>
   <li>Airdrop</li>
   <li>Trackpad using >= 3 fingers</li>
+  <li>VGA port (Apple had stopped using VGA ports.)</li>
 </ul>
 <h2>How to use?</h2>
 <h3>Create boot</h3>
