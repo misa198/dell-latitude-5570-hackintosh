@@ -23,7 +23,11 @@
 <p>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a></p>
 
 <h3>Create EFI</h3>
+<h4>Windows</h4>
 <p>Put the EFI folder below (choose the appropriate version) in the root directory of the USB flash drive</p>
+<h4>MacOS</h4>
+<p>Use <a href="https://github.com/corpnewt/MountEFI">MountEFI</a> to mount EFI partition.</p>
+<p>Put the EFI folder below (choose the appropriate version) in EFI partition.</p>
 
 <h3>Installing</h3>
 <p>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html">here</a></p>
