@@ -1,6 +1,6 @@
 <h1> DELL Latitude E5570 Opencore</h1>
 
-<img src="../screens/screen_shot.png"/>
+<img src="https://raw.githubusercontent.com/misa198/dell-latitude-e5570-hackintosh-opencore/master/screens/screen_shot.png?token=AMIRKUAPWCRLFGB6KMNLJRK75RQ24" style="margin: auto;"/>
 
 <h2>Introduce</h2>
 <p>EFI folder for DELL Latitude E5570 Opencore hackintosh.</p>
