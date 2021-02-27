@@ -7,8 +7,11 @@
 
 <h2>Spec</h2>
 <ul>
-  <li>CPU: i5-6440HQ + HD530</li>
+  <li>i5-6440HQ <span style="color: #70757a">(Can be used for other Skylake CPU)</span></li>
+  <li>HD530</li>
   <li>Wireless: Intel AC 8260</li>
+  <br/>
+  <p style="color: red;">If you have an AMD R7 M370, you must disable it.</p>
 </ul>
 
 <h2>What doesn't work?</h2>
@@ -16,6 +19,7 @@
   <li>Airdrop</li>
   <li>Trackpad using >= 3 fingers</li>
   <li>VGA port (Apple had stopped using VGA ports.)</li>
+  <li>SD card reader</li>
 </ul>
 <h2>How to use?</h2>
 <h3>Create boot</h3>
