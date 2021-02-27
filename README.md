@@ -11,7 +11,7 @@
   <li>HD530</li>
   <li>Wireless: Intel AC 8260</li>
   <br/>
-  <p style="color: red;">If you have an AMD R7 M370, you must disable it. Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html#windows-gpu-selection">here.</a></p>
+  <p style="color: red;">If you have an AMD R7 M370, you must disable it. Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html#disabling-gpu">here.</a></p>
 </ul>
 
 <h2>What doesn't work?</h2>
