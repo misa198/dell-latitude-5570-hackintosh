@@ -1,6 +1,6 @@
 <h1> DELL Latitude E5570 Opencore</h1>
 
-<img src="https://raw.githubusercontent.com/misa198/dell-latitude-e5570-hackintosh-opencore/master/screens/screen_shot.png?token=AMIRKUAPWCRLFGB6KMNLJRK75RQ24" style="margin: auto;"/>
+<img src="./screens/screen_shot.png" style="margin: auto;"/>
 
 <h2>Introduce</h2>
 <p>DELL Latitude E5570 Opencore hackintosh MacOS BigSur.</p>
@@ -21,6 +21,8 @@
   <li>VGA port (Apple had stopped using VGA ports.)</li>
   <li>SD card reader</li>
 </ul>
+<h2>Kexts</h2>
+<img src="./screens/kexts.png" style="margin: auto;"/>
 <h2>How to use?</h2>
 <h3>Create boot</h3>
 <p>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a></p>
