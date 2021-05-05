@@ -25,7 +25,9 @@
 <img src="./screens/kexts.png" style="margin: auto;"/>
 <h2>How to use?</h2>
 <h3>Create boot</h3>
-<p>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a></p>
+<ul>
+  <li>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a></li>
+</ul>
 
 <h3>Edit your EFI</h3>
 <ul>
