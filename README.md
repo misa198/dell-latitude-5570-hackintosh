@@ -8,10 +8,9 @@
 <h2>Spec</h2>
 <ul>
   <li>i5-6440HQ <span style="color: #70757a">(Can be used for other Skylake CPU)</span></li>
-  <li>HD530</li>
+  <li>HD530 <span style="color: #70757a">(if you have AMD Radeon R7 M370, it will be disabled, it doesn't work with macOS)</span></li>
   <li>Wireless: Intel AC 8260</li>
   <br/>
-  <p style="color: red;">If you have an AMD R7 M370, you must disable it. Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html#disabling-gpu">here.</a></p>
 </ul>
 
 <h2>What doesn't work?</h2>
