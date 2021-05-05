@@ -20,6 +20,7 @@
   <li>VGA port (Apple had stopped using VGA ports.)</li>
   <li>SD card reader</li>
   <li>Brightness Keys (Settings -> Keyboard -> Shortcuts -> Display to remap brightness keys)</li>
+  <li>SmoothScroll (Can be fixed by <a href="https://mos.caldis.me/">MOS</a> or <a href="https://www.smoothscroll.net/mac/">SmoothScroll</a>)</li>
 </ul>
 <h2>Kexts</h2>
 <img src="./screens/kexts.png" style="margin: auto;"/>
