@@ -19,6 +19,7 @@
   <li>Trackpad using >= 3 fingers</li>
   <li>VGA port (Apple had stopped using VGA ports.)</li>
   <li>SD card reader</li>
+  <li>Brightness Keys (Settings -> Keyboard -> Shortcuts -> Display to remap brightness keys)</li>
 </ul>
 <h2>Kexts</h2>
 <img src="./screens/kexts.png" style="margin: auto;"/>
