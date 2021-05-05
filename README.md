@@ -24,10 +24,6 @@
 <h2>Kexts</h2>
 <img src="./screens/kexts.png" style="margin: auto;"/>
 <h2>How to use?</h2>
-<h3>Create boot</h3>
-<ul>
-  <li>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a></li>
-</ul>
 
 <h3>Edit your EFI</h3>
 <ul>
@@ -42,24 +38,9 @@
   </li>
 </ul>
 
-<h4>If you using:</h4>
+<h3>Create boot</h3>
 <ul>
-  <details close>
-    <summary>Windows</summary>
-    <br>
-    <ul>
-      <li>Put the EFI folder below (choose the appropriate version) in the root directory of the USB flash drive.</li>
-    </ul>
-  </details>
-
-  <details close>
-    <summary>MacOS</summary>
-    <br>
-    <ul>
-      <li>Use <a href="https://github.com/corpnewt/MountEFI">MountEFI</a> to mount EFI partition.</li>
-      <li>Put the EFI folder in EFI partition.</li>
-    </ul>
-  </details>
+  <li>Follow (Use the EFI you just edited instead of the EFI in this tutorial <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a>)</li>
 </ul>
 
 <h3>Installing</h3>
