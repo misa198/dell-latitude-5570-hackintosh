@@ -6,6 +6,7 @@
 <p>DELL Latitude E5570 Opencore hackintosh MacOS BigSur.</p>
 
 <h2>Spec</h2>
+<p><i>This is spec of my latop. This EFI can be used for all of DELL Latitude E5570</i></p>
 <ul>
   <li>i5-6440HQ <span style="color: #70757a">(Can be used for other Skylake CPU)</span></li>
   <li>HD530 <span style="color: #70757a">(if you have AMD Radeon R7 M370, it will be disabled, it doesn't work with macOS)</span></li>
