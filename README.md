@@ -3,7 +3,7 @@
 <img src="./screens/screen_shot.png" style="margin: auto;"/>
 
 <h2>Introduce</h2>
-<p>DELL Latitude E5570 Opencore hackintosh MacOS BigSur.</p>
+<p>DELL Latitude E5570 Opencore hackintosh.</p>
 
 <h2>Spec</h2>
 <p><i>This is spec of my latop. This EFI can be used for all of DELL Latitude E5570</i></p>
