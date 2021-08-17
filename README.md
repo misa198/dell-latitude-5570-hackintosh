@@ -30,19 +30,25 @@
 <h3>Edit your EFI</h3>
 <ul>
   <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">Download EFI</a>
+    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
+      <img src="https://img.shields.io/static/v1?label=Download&message=v1.0.6&color=<COLOR>" />
+    </a>
   </li>
   <li>
     Use <a href="https://github.com/corpnewt/GenSMBIOS">GenSMBIOS</a> to generate SMBIOS.
   </li>
   <li>
-    Use <a href="https://github.com/corpnewt/ProperTree">GenSMBIOS</a> to add SMBIOS information to config.plist file.
+    Use <a href="https://github.com/corpnewt/ProperTree">ProperTree</a> to add SMBIOS information to config.plist file.
   </li>
 </ul>
 
 <h3>Create boot</h3>
 <ul>
-  <li>Follow (Use the EFI you just edited instead of the EFI in this tutorial <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a>)</li>
+  <li>Format your USB to fat32.</li>
+  <li>Copy folder EFI to your USB.</li>
+  <li>Create folder ```com.apple.recovery.boot``` in your USB.</li>
+  <li>Download ```macOS Recovery``` - follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a>.</li>
+  <li>Copy 2 files ```BaseSystem.dmg``` & ```BaseSystem.chunklist``` to folder ```com.apple.recovery.boot```.</li>
 </ul>
 
 <h3>Installing</h3>
