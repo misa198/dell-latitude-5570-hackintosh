@@ -31,7 +31,7 @@
 <ul>
   <li>
     <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
-      <img src="https://img.shields.io/static/v1?label=Download&message=v1.0.6&color=<COLOR>" />
+      <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=Download&color=<COLOR>" />
     </a>
   </li>
   <li>
