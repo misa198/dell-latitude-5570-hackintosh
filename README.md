@@ -44,11 +44,11 @@
 
 <h3>Create boot</h3>
 <ul>
-  <li>Format your USB to fat32.</li>
-  <li>Copy folder EFI to your USB.</li>
-  <li>Create folder ```com.apple.recovery.boot``` in your USB.</li>
-  <li>Download ```macOS Recovery``` - follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a>.</li>
-  <li>Copy 2 files ```BaseSystem.dmg``` & ```BaseSystem.chunklist``` to folder ```com.apple.recovery.boot```.</li>
+  <li>Format your USB to <code>fat32</code>.</li>
+  <li>Copy folder <code>EFI</code> to your USB.</li>
+  <li>Create folder <code>com.apple.recovery.boot</code> in your USB.</li>
+  <li>Download <code>macOS Recovery</code> - follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a>.</li>
+  <li>Copy 2 files <code>BaseSystem.dmg</code> & <code>BaseSystem.chunklist</code> to folder <code>com.apple.recovery.boot</code>.</li>
 </ul>
 
 <h3>Installing</h3>
