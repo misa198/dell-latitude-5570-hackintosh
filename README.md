@@ -1,9 +1,6 @@
-<h1> DELL Latitude E5570 Opencore</h1>
+<h1> DELL Latitude E5570 hackintosh Opencore</h1>
 
 <img src="./screens/screenshot.png" style="margin: auto;"/>
-
-<h2>Introduce</h2>
-<p>DELL Latitude E5570 Opencore hackintosh.</p>
 
 <h2>Spec</h2>
 <p><i>This is spec of my latop. This EFI can be used for all of DELL Latitude E5570</i></p>
