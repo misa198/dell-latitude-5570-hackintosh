@@ -1,6 +1,6 @@
 <h1> DELL Latitude E5570 Opencore</h1>
 
-<img src="./screens/screen_shot.png" style="margin: auto;"/>
+<img src="./screens/screenshot.png" style="margin: auto;"/>
 
 <h2>Introduce</h2>
 <p>DELL Latitude E5570 Opencore hackintosh.</p>
