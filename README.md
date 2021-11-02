@@ -1,6 +1,8 @@
 <h1> DELL Latitude E5570 Hackintosh Opencore</h1>
 
-<img src="./screens/screenshot.png" style="margin: auto;"/>
+<p align="center">
+  <img src="./screens/screenshot.png" style="margin: auto;"/>
+</p>
 
 <h2>Spec</h2>
 <p><i>This is spec of my laptop. This EFI can be used for all of DELL Latitude E5570</i></p>
@@ -21,7 +23,9 @@
   <li>SmoothScroll (Can be fixed by <a href="https://mos.caldis.me/">MOS</a> or <a href="https://www.smoothscroll.net/mac/">SmoothScroll</a>)</li>
 </ul>
 <h2>Kexts</h2>
-<img src="./screens/kexts.png" style="margin: auto;"/>
+<p align="center">
+  <img src="./screens/kexts.png" style="margin: auto;"/>
+</p>
 <h2>How to use?</h2>
 <i>As of EFI version 1.1.0 I only create EFI for macOS Monterey.</i>
 <h3>Download EFI</h3>
