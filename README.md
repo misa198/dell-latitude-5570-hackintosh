@@ -31,13 +31,13 @@
 <h3>Download EFI</h3>
 <ul>
   <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/releases/tag/1.0.9">
-      <img src="https://img.shields.io/badge/macOS%20Big%20Sur-v1.0.9-brightgreen" />
+    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
+      <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
     </a>
   </li>
   <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
-      <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
+    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/releases/tag/1.0.9">
+      <img src="https://img.shields.io/badge/macOS%20Big%20Sur-v1.0.9-brightgreen" />
     </a>
   </li>
 </ul>
