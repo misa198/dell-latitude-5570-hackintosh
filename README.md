@@ -1,9 +1,9 @@
-<h1> DELL Latitude E5570 hackintosh Opencore</h1>
+<h1> DELL Latitude E5570 Hackintosh Opencore</h1>
 
 <img src="./screens/screenshot.png" style="margin: auto;"/>
 
 <h2>Spec</h2>
-<p><i>This is spec of my latop. This EFI can be used for all of DELL Latitude E5570</i></p>
+<p><i>This is spec of my laptop. This EFI can be used for all of DELL Latitude E5570</i></p>
 <ul>
   <li>i5-6440HQ <span style="color: #70757a">(Can be used for other Skylake CPU)</span></li>
   <li>HD530 <span style="color: #70757a">(if you have AMD Radeon R7 M370, it will be disabled, it doesn't work with macOS)</span></li>
@@ -23,14 +23,23 @@
 <h2>Kexts</h2>
 <img src="./screens/kexts.png" style="margin: auto;"/>
 <h2>How to use?</h2>
+<i>As of EFI version 1.1.0 I only create EFI for macOS Monterey.</i>
+<h3>Download EFI</h3>
+<ul>
+  <li>
+    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/releases/tag/1.0.9">
+      <img src="https://img.shields.io/badge/macOS%20Big%20Sur-v1.0.9-brightgreen" />
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
+      <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
+    </a>
+  </li>
+</ul>
 
 <h3>Edit your EFI</h3>
 <ul>
-  <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
-      <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=Download&color=<COLOR>" />
-    </a>
-  </li>
   <li>
     Use <a href="https://github.com/corpnewt/GenSMBIOS">GenSMBIOS</a> to generate SMBIOS.
   </li>
