@@ -24,7 +24,7 @@
 </ul>
 <h2>Kexts</h2>
 <p align="center">
-  <img src="./screens/kexts.png" style="margin: auto;"/>
+  <img src="./screens/screenshot-kexts.png" style="margin: auto;"/>
 </p>
 <h2>How to use?</h2>
 <i>As of EFI version 1.1.0 I only create EFI for macOS Monterey.</i>
