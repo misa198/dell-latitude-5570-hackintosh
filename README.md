@@ -1,7 +1,7 @@
 <h1> DELL Latitude E5570 Hackintosh Opencore</h1>
 
 <p align="center">
-  <img src="./screens/screenshot.png" style="margin: auto;"/>
+  <img src="./screens/screenshot-bigsur.png" style="margin: auto;"/>
 </p>
 
 <h2>Spec</h2>
