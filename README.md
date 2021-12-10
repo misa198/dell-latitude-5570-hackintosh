@@ -43,6 +43,9 @@
 </ul>
 
 <h3>Edit your EFI</h3>
+<p align="center">
+  <img src="./screens/screenshot-smbios.png" style="margin: auto;"/>
+</p>
 <ul>
   <li>
     Use <a href="https://github.com/corpnewt/GenSMBIOS">GenSMBIOS</a> to generate SMBIOS.
