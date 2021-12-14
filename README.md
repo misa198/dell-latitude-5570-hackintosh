@@ -17,9 +17,9 @@
 <ul>
   <li>Airdrop</li>
   <li>Trackpad using >= 3 fingers</li>
-  <li>VGA port (Apple had stopped using VGA ports.)</li>
+  <li><s>VGA port (Apple had stopped using VGA ports.)</s><span> Fixed by <a href="https://github.com/quynkk1">@quynkk1</a></span></li>
   <li>SD card reader</li>
-  <li>Brightness Keys (Settings -> Keyboard -> Shortcuts -> Display to remap brightness keys)</li>
+  <li>Brightness Keys (Settings -> Keyboard -> Shortcuts -> Display to remap brightness keys or using <a href="https://karabiner-elements.pqrs.org/">Karabiner-Elements/a>)</li>
   <li>SmoothScroll (Can be fixed by <a href="https://mos.caldis.me/">MOS</a> or <a href="https://www.smoothscroll.net/mac/">SmoothScroll</a>)</li>
 </ul>
 <h2>Kexts</h2>

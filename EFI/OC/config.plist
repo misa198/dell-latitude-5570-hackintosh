@@ -267,7 +267,7 @@
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
-				<data>EAAAAA==</data>
+				<data>AAQAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1235,7 +1235,7 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>xxxxxxxxxxxxxxx</string>
+			<string>*************************</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1249,9 +1249,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,2</string>
 			<key>SystemSerialNumber</key>
-			<string>xxxxxxxxxxxxx</string>
+			<string>*******************</string>
 			<key>SystemUUID</key>
-			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			<string>**************************************</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
