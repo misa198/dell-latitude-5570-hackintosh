@@ -4,27 +4,44 @@
   <img src="./screens/screenshot.png" style="margin: auto;"/>
 </p>
 
-<h2>Spec</h2>
+<h2>Specs</h2>
+
 <p><i>This is spec of my laptop. This EFI can be used for all of DELL Latitude E5570</i></p>
-<ul>
-  <li>i5-6440HQ <span style="color: #70757a">(Can be used for other Skylake CPU)</span></li>
-  <li>HD530 <span style="color: #70757a">(if you have AMD Radeon R7 M370, it will be disabled, it doesn't work with macOS)</span></li>
-  <li>Wireless: Intel AC 8260</li>
-  <br/>
-</ul>
 
-<h2>What doesn't work?</h2>
-<ul>
-  <li>Airdrop</li>
-  <li>Trackpad using >= 3 fingers</li>
-  <li><s>VGA port (Apple had stopped using VGA ports.)</s><span> Fixed by <a href="https://github.com/quynkk1">@quynkk1</a></span></li>
-  <li>SmoothScroll (Can be fixed by <a href="https://mos.caldis.me/">MOS</a> or <a href="https://www.smoothscroll.net/mac/">SmoothScroll</a>)</li>
-</ul>
+| Part             | Description                                                                                                    |
+| ---------------- | -------------------------------------------------------------------------------------------------------------- |
+| CPU              | Intel® Core™ i5-6440HQ Processor                                                                               |
+| iGPU             | Intel® HD 530                                                                                                  |
+| Memory           | 16Gb (2 x Micron 8Gb 2133MHz)                                                                                  |
+| Storage          | SSD 256GB SanDisk X300s m2 SATA                                                                                |
+| Display          | IPS 15.6 inch 1920x1080                                                                                        |
+| Wifi & Bluetooth | Intel® Wireless-AC 8260 Dual Band                                                                              |
+| LAN              | Intel® Gigabit Ethernet, 10/100/1000                                                                           |
+| Touchpad         | ALPS V8                                                                                                        |
+| Audio            | Realtek ALC293                                                                                                 |
+| External ports   | 3 x USB 3.0, 1 x RJ45, 1 x SD Card Reader, 1 x HDMI, 1 x 3.5 headphone/microphone combo, 1 x Smart Card Reader |
 
-<h2>Kexts</h2>
-<p align="center">
-  <img src="./screens/screenshot-kexts.png" style="margin: auto;"/>
-</p>
+<h2>What works and what doesn't work</h2>
+
+| Part                                                             | Status | Note                                                                                                                                          |
+| ---------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                               |
+| Trackpoint                                                       | ✅     |                                                                                                                                               |
+| Touchpad & 5 keys                                                | ✅     | 2 fingers, smooth scrolling not working (Can be fixed by [MOS](https://mos.caldis.me/) or [SmoothScroll](https://www.smoothscroll.net/mac/)). |
+| RJ45 LAN Port                                                    | ✅     |                                                                                                                                               |
+| Wifi                                                             | ✅     |                                                                                                                                               |
+| Bluetooth                                                        | ✅     |                                                                                                                                               |
+| SD Card Reader                                                   | ✅     |                                                                                                                                               |
+| Camera & Mic                                                     | ✅     |                                                                                                                                               |
+| Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                               |
+| iGPU & VGA & HDMI                                                | ✅     |                                                                                                                                               |
+| USB                                                              | ✅     |                                                                                                                                               |
+| Sleep                                                            | ✅     |                                                                                                                                               |
+| Handoff                                                          | ✅     |                                                                                                                                               |
+| Airdrop                                                          | ❌     |                                                                                                                                               |
+| AMD dGPU                                                         | ❌     | If you have                                                                                                                                   |
+| Smart card reader                                                |        | Not tested yet                                                                                                                                |
+
 <h2>How to use?</h2>
 <i>As of EFI version 1.1.0 I only create EFI for macOS Monterey.</i>
 <h3>Download EFI</h3>
@@ -41,7 +58,7 @@
   </li>
 </ul>
 
-<h3>Edit your EFI</h3>
+<h3>Edit the efi you just downloaded</h3>
 <p align="center">
   <img src="./screens/screenshot-smbios.png" style="margin: auto;"/>
 </p>
