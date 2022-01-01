@@ -27,7 +27,7 @@
 | ---------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                               |
 | Trackpoint                                                       | ✅     |                                                                                                                                               |
-| Touchpad & 5 keys                                                | ✅     | 2 fingers, smooth scrolling not working (Can be fixed by [MOS](https://mos.caldis.me/) or [SmoothScroll](https://www.smoothscroll.net/mac/)). |
+| Touchpad & 5 keys                                                | ✅     | 1 or 2 fingers. Smooth scrolling not working (Can be fixed by [MOS](https://mos.caldis.me/) or [SmoothScroll](https://www.smoothscroll.net/mac/)). |
 | RJ45 LAN Port                                                    | ✅     |                                                                                                                                               |
 | Wifi                                                             | ✅     |                                                                                                                                               |
 | Bluetooth                                                        | ✅     |                                                                                                                                               |
@@ -40,10 +40,9 @@
 | Handoff                                                          | ✅     |                                                                                                                                               |
 | Airdrop                                                          | ❌     |                                                                                                                                               |
 | AMD dGPU                                                         | ❌     | If you have                                                                                                                                   |
-| Smart card reader                                                |        | Not tested yet                                                                                                                                |
+| Smart card reader                                                | ❌     |                                                                                                                                               |
 
 <h2>How to use?</h2>
-<i>As of EFI version 1.1.0 I only create EFI for macOS Monterey.</i>
 <h3>Download EFI</h3>
 <ul>
   <li>
@@ -52,8 +51,8 @@
     </a>
   </li>
   <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/releases/tag/1.0.9">
-      <img src="https://img.shields.io/badge/macOS%20Big%20Sur-v1.0.9-brightgreen" />
+    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/tree/bigsur">
+      <img src="https://img.shields.io/badge/macOS%20Big%20Sur-Git Branch-brightgreen" />
     </a>
   </li>
 </ul>
