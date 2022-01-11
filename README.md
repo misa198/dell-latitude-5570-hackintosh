@@ -23,24 +23,24 @@
 
 <h2>What works and what doesn't work</h2>
 
-| Part                                                             | Status | Note                                                                                                                                          |
-| ---------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                               |
-| Trackpoint                                                       | ✅     |                                                                                                                                               |
+| Part                                                             | Status | Note                                                                                                                                               |
+| ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                                    |
+| Trackpoint                                                       | ✅     |                                                                                                                                                    |
 | Touchpad & 5 keys                                                | ✅     | 1 or 2 fingers. Smooth scrolling not working (Can be fixed by [MOS](https://mos.caldis.me/) or [SmoothScroll](https://www.smoothscroll.net/mac/)). |
-| RJ45 LAN Port                                                    | ✅     |                                                                                                                                               |
-| Wifi                                                             | ✅     |                                                                                                                                               |
-| Bluetooth                                                        | ✅     |                                                                                                                                               |
-| SD Card Reader                                                   | ✅     |                                                                                                                                               |
-| Camera & Mic                                                     | ✅     |                                                                                                                                               |
-| Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                               |
-| iGPU & VGA & HDMI                                                | ✅     |                                                                                                                                               |
-| USB                                                              | ✅     |                                                                                                                                               |
-| Sleep                                                            | ✅     |                                                                                                                                               |
-| Handoff                                                          | ✅     |                                                                                                                                               |
-| Airdrop                                                          | ❌     |                                                                                                                                               |
-| AMD dGPU                                                         | ❌     | If you have                                                                                                                                   |
-| Smart card reader                                                | ❌     |                                                                                                                                               |
+| RJ45 LAN Port                                                    | ✅     |                                                                                                                                                    |
+| Wifi                                                             | ✅     |                                                                                                                                                    |
+| Bluetooth                                                        | ✅     |                                                                                                                                                    |
+| SD Card Reader                                                   | ✅     |                                                                                                                                                    |
+| Camera & Mic                                                     | ✅     |                                                                                                                                                    |
+| Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                                    |
+| iGPU & VGA & HDMI                                                | ✅     |                                                                                                                                                    |
+| USB                                                              | ✅     |                                                                                                                                                    |
+| Sleep                                                            | ✅     |                                                                                                                                                    |
+| Handoff                                                          | ✅     |                                                                                                                                                    |
+| Airdrop                                                          | ❌     |                                                                                                                                                    |
+| AMD dGPU                                                         | ❌     | If you have                                                                                                                                        |
+| Smart card reader                                                | ❌     |                                                                                                                                                    |
 
 <h2>How to use?</h2>
 <h3>Download EFI</h3>
@@ -82,4 +82,9 @@
 <h3>Installing</h3>
 <ul>
   <li>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html">here.</a></li>
+</ul>
+
+<h3>Credits</h3>
+<ul>
+  <li><a href="https://github.com/quynkk1">@quynkk1</a> for fixing the problem of the vga port.</li>
 </ul>
