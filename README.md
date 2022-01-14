@@ -1,10 +1,10 @@
-<h1> DELL Latitude E5570 Hackintosh Opencore</h1>
+# DELL Latitude E5570 Hackintosh Opencore
 
 <p align="center">
   <img src="./screens/screenshot.png" style="margin: auto;"/>
 </p>
 
-<h2>Specs</h2>
+## Specs
 
 <p><i>This is spec of my laptop. This EFI can be used for all of DELL Latitude E5570</i></p>
 
@@ -23,68 +23,61 @@
 
 <h2>What works and what doesn't work</h2>
 
-| Part                                                             | Status | Note                                                                                                                                               |
-| ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                                    |
-| Trackpoint                                                       | ✅     |                                                                                                                                                    |
-| Touchpad & 5 keys                                                | ✅     | 1 or 2 fingers. Smooth scrolling not working (Can be fixed by [MOS](https://mos.caldis.me/) or [SmoothScroll](https://www.smoothscroll.net/mac/)). |
-| RJ45 LAN Port                                                    | ✅     |                                                                                                                                                    |
-| Wifi                                                             | ✅     |                                                                                                                                                    |
-| Bluetooth                                                        | ✅     |                                                                                                                                                    |
-| SD Card Reader                                                   | ✅     |                                                                                                                                                    |
-| Camera & Mic                                                     | ✅     |                                                                                                                                                    |
-| Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                                    |
-| iGPU & VGA & HDMI                                                | ✅     |                                                                                                                                                    |
-| USB                                                              | ✅     |                                                                                                                                                    |
-| Sleep                                                            | ✅     |                                                                                                                                                    |
-| Handoff                                                          | ✅     |                                                                                                                                                    |
-| Airdrop                                                          | ❌     |                                                                                                                                                    |
-| AMD dGPU                                                         | ❌     | If you have                                                                                                                                        |
-| Smart card reader                                                | ❌     |                                                                                                                                                    |
+| Part                                                             | Status | Note        |
+| ---------------------------------------------------------------- | ------ | ----------- |
+| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |             |
+| Trackpoint                                                       | ✅     |             |
+| Touchpad & 5 keys & gestures                                     | ✅     |             |
+| RJ45 LAN Port                                                    | ✅     |             |
+| Wifi                                                             | ✅     |             |
+| Bluetooth                                                        | ✅     |             |
+| SD Card Reader                                                   | ✅     |             |
+| Camera & Mic                                                     | ✅     |             |
+| Speaker & 3.5mm audio port                                       | ✅     |             |
+| iGPU & VGA & HDMI                                                | ✅     |             |
+| USB                                                              | ✅     |             |
+| Sleep                                                            | ✅     |             |
+| Handoff                                                          | ✅     |             |
+| Airdrop                                                          | ❌     |             |
+| AMD dGPU                                                         | ❌     | If you have |
+| Smart card reader                                                | ❌     |             |
 
-<h2>How to use?</h2>
-<h3>Download EFI</h3>
-<ul>
-  <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
-      <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/tree/bigsur">
-      <img src="https://img.shields.io/badge/macOS%20Big%20Sur-Git Branch-brightgreen" />
-    </a>
-  </li>
-</ul>
+## How to use?
 
-<h3>Edit the efi you just downloaded</h3>
+### Download EFI
+
+- <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
+    <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
+  </a>
+
+- <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/tree/bigsur">
+    <img src="https://img.shields.io/badge/macOS%20Big%20Sur-Git Branch-brightgreen" />
+  </a>
+
+### Edit the efi you just downloaded
+
 <p align="center">
   <img src="./screens/screenshot-smbios.png" style="margin: auto;"/>
 </p>
-<ul>
-  <li>
-    Use <a href="https://github.com/corpnewt/GenSMBIOS">GenSMBIOS</a> to generate SMBIOS.
-  </li>
-  <li>
-    Use <a href="https://github.com/corpnewt/ProperTree">ProperTree</a> to add SMBIOS information to config.plist file.
-  </li>
-</ul>
 
-<h3>Create boot</h3>
-<ul>
-  <li>Format your USB to <code>fat32</code>.</li>
-  <li>Copy folder <code>EFI</code> to your USB.</li>
-  <li>Create folder <code>com.apple.recovery.boot</code> in your USB.</li>
-  <li>Download <code>macOS Recovery</code> - follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installer-guide/">here</a>.</li>
-  <li>Copy 2 files <code>BaseSystem.dmg</code> & <code>BaseSystem.chunklist</code> to folder <code>com.apple.recovery.boot</code>.</li>
-</ul>
+- Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS.
+- Use [ProperTree](https://github.com/corpnewt/ProperTree) to add SMBIOS information to config.plist file.
 
-<h3>Installing</h3>
-<ul>
-  <li>Follow <a href="https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html">here.</a></li>
-</ul>
+### Create boot
 
-<h3>Credits</h3>
-<ul>
-  <li><a href="https://github.com/quynkk1">@quynkk1</a> for fixing the problem of the vga port.</li>
-</ul>
+- Format your USB to `fat32`.
+- Copy folder `EFI` to your USB.
+- Create folder `com.apple.recovery.boot` in your USB.
+- Download `macOS Recovery` - follow [here](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+- Copy 2 files `BaseSystem.dmg` & `BaseSystem.chunklist` to folder `com.apple.recovery.boot`.
+
+### Installing
+
+- Follow [here](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
+
+## Credits
+
+- [@quynkk1](https://github.com/quynkk1)
+  - Fixing the problem of the vga port.
+  - Remap brightness keys
+  - Fixing touchpad gesture problem

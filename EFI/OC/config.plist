@@ -617,24 +617,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
-				<key>Comment</key>
-				<string>VoodooPS2Mouse.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Mouse</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
 				<string>VoodooPS2Trackpad.kext</string>
@@ -1419,7 +1401,7 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>xxxxxxxxxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxxxxx</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1433,9 +1415,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,2</string>
 			<key>SystemSerialNumber</key>
-			<string>xxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxxxxx</string>
 			<key>SystemUUID</key>
-			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
