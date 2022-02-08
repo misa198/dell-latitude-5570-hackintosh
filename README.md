@@ -4,6 +4,9 @@
   <img src="./screens/screenshot.png" style="margin: auto;"/>
 </p>
 
+## Overview
+This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for some DELL Latitude E5470 models. ([See more](https://github.com/misa198/dell-latitude-e5570-hackintosh/issues/9))
+
 ## Specs
 
 <p><i>This is spec of my laptop. This EFI can be used for all of DELL Latitude E5570</i></p>
@@ -21,7 +24,7 @@
 | Audio            | Realtek ALC293                                                                                                 |
 | External ports   | 3 x USB 3.0, 1 x RJ45, 1 x SD Card Reader, 1 x HDMI, 1 x 3.5 headphone/microphone combo, 1 x Smart Card Reader |
 
-<h2>What works and what doesn't work</h2>
+<h2>What works and what doesn't work?</h2>
 
 | Part                                                             | Status | Note        |
 | ---------------------------------------------------------------- | ------ | ----------- |
