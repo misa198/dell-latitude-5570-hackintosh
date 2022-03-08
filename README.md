@@ -5,6 +5,7 @@
 </p>
 
 ## Overview
+
 This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for some DELL Latitude E5470 models. ([See more](https://github.com/misa198/dell-latitude-e5570-hackintosh/issues/9))
 
 ## Specs
@@ -26,24 +27,24 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 
 <h2>What works and what doesn't work?</h2>
 
-| Part                                                             | Status | Note        |
-| ---------------------------------------------------------------- | ------ | ----------- |
-| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |             |
-| Trackpoint                                                       | ✅     |             |
-| Touchpad & 5 keys & gestures                                     | ✅     |             |
-| RJ45 LAN Port                                                    | ✅     |             |
-| Wifi                                                             | ✅     |             |
-| Bluetooth                                                        | ✅     |             |
-| SD Card Reader                                                   | ✅     |             |
-| Camera & Mic                                                     | ✅     |             |
-| Speaker & 3.5mm audio port                                       | ✅     |             |
-| iGPU & VGA & HDMI                                                | ✅     |             |
-| USB                                                              | ✅     |             |
-| Sleep                                                            | ✅     |             |
-| Handoff                                                          | ✅     |             |
-| Airdrop                                                          | ❌     |             |
-| AMD dGPU                                                         | ❌     | If you have |
-| Smart card reader                                                | ❌     |             |
+| Part                                                             | Status | Note                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Trackpoint                                                       | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Touchpad & 5 keys & gestures                                     | ✅     | There are a few cases where there may be problems with the trackpad (I haven't had any problem yet). If something goes wrong, you can Reset NVRAM and try again. If the problem persists, you can switch to [Acidanthera's kext](https://github.com/acidanthera/VoodooPS2). This kext does not support trackpad gestures. |
+| RJ45 LAN Port                                                    | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Wifi                                                             | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Bluetooth                                                        | ✅     | Bluetooth can stop working after sleep, this problem happens with all non-native cards. There is no fix yet. You can track the bug [here](https://github.com/acidanthera/bugtracker/issues/1821).                                                                                                                         |
+| SD Card Reader                                                   | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Camera & Mic                                                     | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| iGPU & VGA & HDMI                                                | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| USB                                                              | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Sleep                                                            | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Handoff                                                          | ✅     |                                                                                                                                                                                                                                                                                                                           |
+| Airdrop                                                          | ❌     |                                                                                                                                                                                                                                                                                                                           |
+| AMD dGPU                                                         | ❌     | If you have                                                                                                                                                                                                                                                                                                               |
+| Smart card reader                                                | ❌     |                                                                                                                                                                                                                                                                                                                           |
 
 ## How to use?
 
