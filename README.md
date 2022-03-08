@@ -34,7 +34,7 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 | Touchpad & 5 keys & gestures                                     | ✅     | There are a few cases where there may be problems with the trackpad (I haven't had any problem yet). If something goes wrong, you can Reset NVRAM and try again. If the problem persists, you can switch to [Acidanthera's kext](https://github.com/acidanthera/VoodooPS2). This kext does not support trackpad gestures. |
 | RJ45 LAN Port                                                    | ✅     |                                                                                                                                                                                                                                                                                                                           |
 | Wifi                                                             | ✅     |                                                                                                                                                                                                                                                                                                                           |
-| Bluetooth                                                        | ✅     | Bluetooth can stop working after sleep, this problem happens with all non-native cards. There is no fix yet. You can track the bug [here](https://github.com/acidanthera/bugtracker/issues/1821).                                                                                                                         |
+| Bluetooth                                                        | ✅     | Bluetooth can stop working after sleep, this problem happens with all non-native cards. There is no fix yet. You can track the bug [here](https://github.com/acidanthera/bugtracker/issues/1821). If you want Bluetooth to work stably, you can use macOS BigSur instead of Monterey.                                     |
 | SD Card Reader                                                   | ✅     |                                                                                                                                                                                                                                                                                                                           |
 | Camera & Mic                                                     | ✅     |                                                                                                                                                                                                                                                                                                                           |
 | Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                                                                                                                                                                                                           |
@@ -48,14 +48,15 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 
 ## How to use?
 
+This EFI is for `Monterey`. If you want to use it for other versions of macOS, you need to replace the 2 files in `EFI > OC > Kexts`:
+
+- itlwm.kext to [version for your version of macOS](https://github.com/OpenIntelWireless/itlwm/releases)
+- BlueToolFixup.kext to [IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)
+
 ### Download EFI
 
 - <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
     <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
-  </a>
-
-- <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh/tree/bigsur">
-    <img src="https://img.shields.io/badge/macOS%20Big%20Sur-Git Branch-brightgreen" />
   </a>
 
 ### Edit the efi you just downloaded
