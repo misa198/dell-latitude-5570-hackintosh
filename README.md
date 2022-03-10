@@ -48,7 +48,7 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 
 ## How to use?
 
-This EFI is for `Monterey`. If you want to use it for other versions of macOS, you need to replace the 2 files in `EFI > OC > Kexts`:
+This EFI is for `Monterey`. If you want to use it for other versions of macOS, you need to replace the 2 kexts in `EFI > OC > Kexts` and OC snapshot again:
 
 - itlwm.kext to [version for your version of macOS](https://github.com/OpenIntelWireless/itlwm/releases)
 - BlueToolFixup.kext to [IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)
