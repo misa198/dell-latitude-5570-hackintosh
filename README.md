@@ -27,24 +27,24 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 
 <h2>What works and what doesn't work?</h2>
 
-| Part                                                             | Status | Note                                                                                                                                                                                                                                                                                                       |
-| ---------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Trackpoint                                                       | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Touchpad & 5 keys & gestures                                     | ✅     | There are                                                                                                                                                                                                                                                                                                  |
-| RJ45 LAN Port                                                    | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Wifi                                                             | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Bluetooth                                                        | ✅     | With macOS Monterey, bluetooth can stop working after sleep, this problem happens with all non-native cards. There is no fix yet. You can track the bug [here](https://github.com/acidanthera/bugtracker/issues/1821). If you want Bluetooth to work stably, you can use macOS BigSur instead of Monterey. |
-| SD Card Reader                                                   | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Camera & Mic                                                     | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Speaker & 3.5mm audio port                                       | ✅     |                                                                                                                                                                                                                                                                                                            |
-| iGPU & VGA & HDMI                                                | ✅     |                                                                                                                                                                                                                                                                                                            |
-| USB                                                              | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Sleep                                                            | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Handoff                                                          | ✅     |                                                                                                                                                                                                                                                                                                            |
-| Airdrop                                                          | ❌     |                                                                                                                                                                                                                                                                                                            |
-| AMD dGPU                                                         | ❌     | If you have                                                                                                                                                                                                                                                                                                |
-| Smart card reader                                                | ❌     |                                                                                                                                                                                                                                                                                                            |
+| Part                                                             | Status | Note        |
+| ---------------------------------------------------------------- | ------ | ----------- |
+| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |             |
+| Trackpoint                                                       | ✅     |             |
+| Touchpad & 5 keys & gestures                                     | ✅     |             |
+| RJ45 LAN Port                                                    | ✅     |             |
+| Wifi                                                             | ✅     |             |
+| Bluetooth                                                        | ✅     |             |
+| SD Card Reader                                                   | ✅     |             |
+| Camera & Mic                                                     | ✅     |             |
+| Speaker & 3.5mm audio port                                       | ✅     |             |
+| iGPU & VGA & HDMI                                                | ✅     |             |
+| USB                                                              | ✅     |             |
+| Sleep                                                            | ✅     |             |
+| Handoff                                                          | ✅     |             |
+| Airdrop                                                          | ❌     |             |
+| AMD dGPU                                                         | ❌     | If you have |
+| Smart card reader                                                | ❌     |             |
 
 ## How to use?
 
@@ -53,10 +53,10 @@ This EFI is for `Monterey`. If you want to use it for other versions of macOS, y
 - itlwm.kext to [version for your version of macOS](https://github.com/OpenIntelWireless/itlwm/releases)
 - BlueToolFixup.kext to [IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)
 
-### Download EFI
+### Download the EFI
 
 - <a href="https://github.com/misa198/dell-latitude-e5570-hackintosh-opencore/releases">
-    <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=macOS Monterey&color=blue" />
+    <img src="https://img.shields.io/github/v/release/misa198/dell-latitude-e5570-hackintosh?label=EFI&color=blue" />
   </a>
 
 ### Edit the efi you just downloaded
