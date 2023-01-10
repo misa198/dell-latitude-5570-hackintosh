@@ -62,6 +62,10 @@ This EFI is for `Monterey`. If you want to use it for other versions of macOS, y
 - Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS.
 - Use [ProperTree](https://github.com/corpnewt/ProperTree) to add SMBIOS information to config.plist file.
 
+### Download
+- [BigSur and Monterey](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/1.5.2)
+- [Ventura [pre-release]](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/ventura_pre_release)
+
 ### Create boot
 
 - Format your USB to `fat32`.
