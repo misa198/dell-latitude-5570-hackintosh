@@ -48,10 +48,9 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 
 ## How to use?
 
-This EFI is for `Monterey`. If you want to use it for other versions of macOS, you need to replace the 2 kexts in `EFI > OC > Kexts` and OC snapshot again:
-
-- itlwm.kext to [version for your version of macOS](https://github.com/OpenIntelWireless/itlwm/releases)
-- BlueToolFixup.kext to [IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)
+### Download
+- [BigSur and Monterey](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/1.5.2)
+- [Ventura [pre-release]](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/ventura_pre_release)
 
 ### Edit the efi you just downloaded
 
@@ -61,10 +60,6 @@ This EFI is for `Monterey`. If you want to use it for other versions of macOS, y
 
 - Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS.
 - Use [ProperTree](https://github.com/corpnewt/ProperTree) to add SMBIOS information to config.plist file.
-
-### Download
-- [BigSur and Monterey](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/1.5.2)
-- [Ventura [pre-release]](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/ventura_pre_release)
 
 ### Create boot
 
