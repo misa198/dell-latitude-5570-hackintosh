@@ -8,6 +8,9 @@
 
 This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for some DELL Latitude E5470 models. ([See more](https://github.com/misa198/dell-latitude-e5570-hackintosh/issues/9))
 
+This EFI is for `Sonoma`.
+If you want to use for `Big Sur/Monterey`, please use [this](https://github.com/misa198/dell-latitude-5570-hackintosh/releases/tag/1.5.2)
+
 ## Specs
 
 <p><i>This is spec of my laptop. This EFI can be used for all of DELL Latitude E5570</i></p>
@@ -27,31 +30,26 @@ This is the Hackintosh Opencore EFI for the DELL Latitude E5570. Available for s
 
 <h2>What works and what doesn't work?</h2>
 
-| Part                                                             | Status | Note        |
-| ---------------------------------------------------------------- | ------ | ----------- |
-| Keyboard (with volume keys, brightness keys, media control keys) | ✅     |             |
-| Trackpoint                                                       | ✅     |             |
-| Touchpad & 5 keys & gestures                                     | ✅     |             |
-| RJ45 LAN Port                                                    | ✅     |             |
-| Wifi                                                             | ✅     |             |
-| Bluetooth                                                        | ✅     |             |
-| SD Card Reader                                                   | ✅     |             |
-| Camera & Mic                                                     | ✅     |             |
-| Speaker & 3.5mm audio port                                       | ✅     |             |
-| iGPU & VGA & HDMI                                                | ✅     |             |
-| USB                                                              | ✅     |             |
-| Sleep                                                            | ✅     |             |
-| Handoff                                                          | ✅     |             |
-| Airdrop                                                          | ❌     |             |
-| AMD dGPU                                                         | ❌     | If you have |
-| Smart card reader                                                | ❌     |             |
+| Part                                              | Status | Note                                                                               |
+| ------------------------------------------------- | ------ | ---------------------------------------------------------------------------------- |
+| Keyboard (with volume keys, , media control keys) | ✅     | Brightness keys does't work on Sonoma.                                             |
+| Trackpoint                                        | ✅     |                                                                                    |
+| Touchpad & 5 keys & gestures                      | ✅     | All features work, but the `Trackpad settings` are not showed in the `Preference`. |
+| RJ45 LAN Port                                     | ✅     |                                                                                    |
+| Wifi                                              | ✅     |                                                                                    |
+| Bluetooth                                         | ✅     |                                                                                    |
+| SD Card Reader                                    | ✅     |                                                                                    |
+| Camera & Mic                                      | ✅     |                                                                                    |
+| Speaker & 3.5mm audio port                        | ✅     |                                                                                    |
+| iGPU & VGA & HDMI                                 | ✅     |                                                                                    |
+| USB                                               | ✅     |                                                                                    |
+| Sleep                                             | ✅     |                                                                                    |
+| Handoff                                           | ✅     |                                                                                    |
+| Airdrop                                           | ❌     |                                                                                    |
+| AMD dGPU                                          | ❌     | If you have                                                                        |
+| Smart card reader                                 | ❌     |                                                                                    |
 
 ## How to use?
-
-This EFI is for `Monterey`. If you want to use it for other versions of macOS, you need to replace the 2 kexts in `EFI > OC > Kexts` and OC snapshot again:
-
-- itlwm.kext to [version for your version of macOS](https://github.com/OpenIntelWireless/itlwm/releases)
-- BlueToolFixup.kext to [IntelBluetoothInjector.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)
 
 ### Download the EFI
 
@@ -65,7 +63,7 @@ This EFI is for `Monterey`. If you want to use it for other versions of macOS, y
   <img src="./screens/screenshot-smbios.png" style="margin: auto;"/>
 </p>
 
-- Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS.
+- Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS. (🔴IMPORTANT❗🔴Use **`MacBookPro15,2`**)
 - Use [ProperTree](https://github.com/corpnewt/ProperTree) to add SMBIOS information to config.plist file.
 
 ### Create boot
@@ -79,10 +77,3 @@ This EFI is for `Monterey`. If you want to use it for other versions of macOS, y
 ### Installing
 
 - Follow [here](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
-
-## Credits
-
-- [@quynkk1](https://github.com/quynkk1)
-  - Fixing the problem of the vga port.
-  - Remap brightness keys
-  - Fixing touchpad gesture problem
